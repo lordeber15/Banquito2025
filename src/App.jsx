@@ -1,34 +1,762 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+    <div className='text-3xl '>
+      <div className='flex-auto justify-center content-center justify-items-center'>
+      <p className=''>
+        BANQUITO 2025
         </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+        <div className="relative flex flex-col w-full h-full overflow-scroll text-gray-700 bg-white shadow-md rounded-lg bg-clip-border">
+  <table className="w-full text-left table-fixed min-w-max text-slate-800">
+    <thead>
+      <tr className="text-slate-700 border-b border-slate-300 bg-slate-50">
+        <th className="p-4">
+          <p className="text-sm leading-none font-bold">
+            Mes
+          </p>
+        </th>
+        <th className="p-4">
+          <p className="text-sm leading-none font-bold">
+            Katherine
+          </p>
+        </th>
+        <th className="p-4">
+          <p className="text-sm leading-none font-bold">
+            Flor
+          </p>
+        </th>
+        <th className="p-4">
+          <p className="text-sm leading-none font-bold">
+            Kelita
+          </p>
+        </th>
+        <th className="p-4">
+          <p className="text-sm leading-none font-bold">
+            Regina
+          </p>
+        </th>
+        <th className="p-4">
+        <p className="text-sm leading-none font-bold">
+            karina
+          </p>
+        </th>
+        <th className="p-4">
+        <p className="text-sm leading-none font-bold">
+            Erita
+          </p>
+        </th>
+        <th className="p-4">
+        <p className="text-sm leading-none font-bold">
+            Erick
+          </p>
+        </th>
+        <th className="p-4">
+        <p className="text-sm leading-none font-bold">
+          999 272 743
+          </p>
+        </th>
+        <th className="p-4">
+        <p className="text-sm leading-none font-bold">
+          Eber
+          </p>
+        </th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      <tr className="hover:bg-slate-50">
+        <td className="p-4">
+          <p className="text-sm font-bold">
+            Enero
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            200
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            200
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            200
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            200
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            200
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            200
+          </p>
+        </td><td className="p-4">
+          <p className="text-sm">
+            200
+          </p>
+        </td><td className="p-4">
+          <p className="text-sm">
+            200
+          </p>
+        </td><td className="p-4">
+          <p className="text-sm">
+            200
+          </p>
+        </td>
+        
+      </tr>
+      <tr className="hover:bg-slate-50">
+        <td className="p-4">
+          <p className="text-sm font-bold">
+            Febrero
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        
+      </tr>
+      <tr className="hover:bg-slate-50">
+        <td className="p-4">
+          <p className="text-sm font-bold">
+            Marzo
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        
+      </tr>
+      <tr className="hover:bg-slate-50">
+        <td className="p-4">
+          <p className="text-sm font-bold">
+            Abril
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        
+      </tr>
+      <tr className="hover:bg-slate-50">
+        <td className="p-4">
+          <p className="text-sm font-bold">
+            Mayo
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        
+      </tr>
+      <tr className="hover:bg-slate-50">
+        <td className="p-4">
+          <p className="text-sm font-bold">
+            Junio
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        
+      </tr>
+      <tr className="hover:bg-slate-50">
+        <td className="p-4">
+          <p className="text-sm font-bold">
+            Julio
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        
+      </tr>
+      <tr className="hover:bg-slate-50">
+        <td className="p-4">
+          <p className="text-sm font-bold">
+            Agosto
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        
+      </tr>
+      <tr className="hover:bg-slate-50">
+        <td className="p-4">
+          <p className="text-sm font-bold">
+            Septiembre
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+      
+      </tr>
+      <tr className="hover:bg-slate-50">
+        <td className="p-4">
+          <p className="text-sm font-bold">
+            Octubre
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        
+      </tr>
+      <tr className="hover:bg-slate-50">
+        <td className="p-4">
+          <p className="text-sm font-bold">
+            Noviembre
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        
+      </tr>
+      <tr className="hover:bg-slate-50">
+        <td className="p-4">
+          <p className="text-sm font-bold">
+            Diciembre
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        
+      </tr>
+      <tr className=" border-t bg-slate-100">
+        <td className="p-4">
+          <p className="text-sm font-bold">
+            Total
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        <td className="p-4">
+          <p className="text-sm">
+            0
+          </p>
+        </td>
+        
+      </tr>
+    </tbody>
+  </table>
+</div>
+    </div>
   )
 }
 

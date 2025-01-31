@@ -1,12 +1,17 @@
-import React from "react";
+
 
 function tablacreditos(props) {
+  const monto = 1000
+  const meses = 3
+  const fecha = new Date().toLocaleDateString()
+  const interes = 10
+
   return (
     <div className="">
       <div className="text-3xl font-bold p-4 flex justify-center text-slate-700 w-screen">
         Credito {props.credito}
       </div>
-      <div className="flex flex-row gap-8 px-32 py-4">
+      <div className="flex flex-row gap-8 px-16 py-4">
         <div className="w-2/3 ">
           <div className="text-5xl font-bold p-4 flex justify-center text-slate-700">
             Cronograma
@@ -96,13 +101,13 @@ function tablacreditos(props) {
                       Monto
                     </th>
                     <th scope="col" className="px-6 py-3">
-                      Mes
+                      Meses
                     </th>
                     <th scope="col" className="px-6 py-3">
                       Interes
                     </th>
                     <th scope="col" className="px-6 py-3">
-                      Fecha de Pago
+                      Fecha de Prestamo
                     </th>
                   </tr>
                 </thead>
@@ -112,11 +117,11 @@ function tablacreditos(props) {
                       scope="row"
                       className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
                     >
-                      0
+                      S./{monto}.00
                     </th>
-                    <td className="px-6 py-4">0</td>
-                    <td className="px-6 py-4">0</td>
-                    <td className="px-6 py-4">30/01/2025</td>
+                    <td className="px-6 py-4">{meses}</td>
+                    <td className="px-6 py-4">{interes}%</td>
+                    <td className="px-6 py-4">{fecha}</td>
                   </tr>
                 </tbody>
               </table>

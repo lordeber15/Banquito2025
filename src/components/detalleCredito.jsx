@@ -3,8 +3,10 @@ import TablaCreditos from "../components/tablacreditos";
 import back from "../assets/back.svg";
 import home from "../assets/home.svg";
 
+
 function DetalleCredito() {
-  const { name } = useParams();
+  const { name } = useParams()
+  
   return (
     <div>
       <div className="font-bold text-5xl bg-slate-700 text-white p-4 flex justify-around items-center">
@@ -21,7 +23,8 @@ function DetalleCredito() {
           <div>Nombre:</div>
           <input
             type="text"
-            value={name}
+            defaultValue={name}
+            disabled
             className="rounded-md border-2 p-2 border-gray-300"
           />
         </div>
@@ -29,16 +32,18 @@ function DetalleCredito() {
           <div>Interes Acumulado:</div>
           <input
             type="number"
+            defaultValue={0}
+            disabled
             className="rounded-md border-gray-300 border-2 p-2 [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
           />
         </div>
-        <button className=" text-white bg-slate-600 cursor-pointer p-4 font-bold rounded-lg text-md">
+        <button  className=" text-white bg-slate-600 cursor-pointer p-4 font-bold rounded-lg text-md">
           Nuevo Credito
         </button>
       </div>
       <TablaCreditos credito="1" />
-      <TablaCreditos credito="2" />
-      <TablaCreditos credito="3" />
+
+      
     </div>
   );
 }
